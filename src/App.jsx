@@ -4,7 +4,7 @@ import Home from  "./Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter><h1></h1>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
